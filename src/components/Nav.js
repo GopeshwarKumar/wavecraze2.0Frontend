@@ -12,7 +12,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="navbar">
+    <div className="navbar sticky top-0">
       <div className="nav">RADIO NITROZ</div>
       <div className="hamburger" onClick={toggleMenu}>
         <div className={`bar ${isOpen ? 'open' : ''}`}></div>
@@ -20,8 +20,8 @@ const Nav = () => {
         <div className={`bar ${isOpen ? 'open' : ''}`}></div>
       </div>
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-        <li><a><Link to="/">HOME</Link></a></li>
-        <li><a><Link to="/">EVENTS</Link></a></li>
+        <li><Link to="/">HOME</Link></li>
+        <li><Link to="/">EVENTS</Link></li>
       </ul>
     </div>
   );
