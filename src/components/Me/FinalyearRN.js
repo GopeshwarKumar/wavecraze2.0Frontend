@@ -63,8 +63,6 @@ const people = [
 const FirstyearRN = () => {
   return (
     <>
-    <h1 className='text-center bg-slate-900 text-white
-     text-[30px] font-bold'>Final Year...</h1>
     <div className="mainmain bg-slate-900 flex overflow-x-scroll gap-6 p-6">
       {people.map((person) => (
         <div
