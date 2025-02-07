@@ -18,3 +18,24 @@ function App() {
 }
 
 export default App;
+
+
+
+// import React from 'react'
+// import FirstyearRN from './components/Me/FirstyearRN'
+// import SeconYearRN from './components/Me/SeconYearRN'
+// import ThirdyearRn from './components/Me/ThirdyearRn'
+// import FinalyearRN from './components/Me/FinalyearRN'
+
+// function App() {
+//   return (
+//     <>
+    // <FirstyearRN/>
+    // <SeconYearRN/>
+    // <ThirdyearRn/>
+    // <FinalyearRN/>
+//     </>
+//   )
+// }
+
+// export default App

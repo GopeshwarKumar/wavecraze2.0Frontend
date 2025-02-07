@@ -6,6 +6,11 @@ import Footer from './Footer';
 import WavecrazeSponser from './Me/WavecrazeSponser'
 import Entertainment from './Me/Entertainment';
 
+import FirstyearRN from './Me/FinalyearRN'
+import SeconYearRN from './Me/SeconYearRN'
+import ThirdyearRn from './Me/ThirdyearRn'
+import FinalyearRN from './Me/FinalyearRN'
+
 const Home = () => {  
   return (
     <div>
@@ -24,6 +29,12 @@ const Home = () => {
       <div>
          <Entertainment/>
          <WavecrazeSponser/>
+         <>
+          <FinalyearRN/>
+          <ThirdyearRn/>
+          <SeconYearRN/>
+          <FirstyearRN/>
+         </>
          <Footer/>
       </div>
     </div>
