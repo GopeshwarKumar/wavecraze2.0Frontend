@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 import "./Footer.css"; // Link to the external CSS file
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
           href="https://www.instagram.com/radionitroz.nitdgp/"
           target="_blank"
           rel="noopener noreferrer"
-          className="icon instagram"
+          className="icon instagram no-underline"
         >
           <FaInstagram />
         </a>
@@ -19,7 +19,7 @@ const Footer = () => {
           href="https://www.facebook.com/radionitroz.nitdgp"
           target="_blank"
           rel="noopener noreferrer"
-          className="icon facebook"
+          className="icon facebook no-underline"
         >
           <FaFacebook />
         </a>
@@ -27,13 +27,13 @@ const Footer = () => {
           href="https://www.linkedin.com/company/radio-nitroz-nitdgp/posts/?feedView=all"
           target="_blank"
           rel="noopener noreferrer"
-          className="icon linkedin"
+          className="icon linkedin no-underline"
         >
           <FaLinkedin />
         </a>
       </div>
       <p className="footer-credit">
-        Made by <span className="team-name">@webd team</span>
+        Made by <span className="team-name cursor-pointer">@webd team</span>
       </p>
     </div>
   );

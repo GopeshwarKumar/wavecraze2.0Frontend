@@ -7,7 +7,7 @@ const Loader = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000); // Simulate a 3-second loading time
+    }, 1000); // Simulate a 1-second loading time
 
     return () => clearTimeout(timer); // Cleanup timer on unmount
   }, []);

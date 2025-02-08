@@ -30,6 +30,7 @@ const Home = () => {
          <Entertainment/>
          <WavecrazeSponser/>
          <>
+         <h1 className='organisingcomitee mt-[50px] font-bold text-center sm:text-[50px] vmd:text-[30px] mb:text-[40px]'>Organising Comitee</h1>
           <FinalyearRN/>
           <ThirdyearRn/>
           <SeconYearRN/>
