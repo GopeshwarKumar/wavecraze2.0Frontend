@@ -4,8 +4,8 @@ import {motion} from 'framer-motion'
 function WavCrazeSponser() {
   return (
     <>
-    <h1 className='sponserText text-center lg:text-[60px] vmd:text-[40px] font-bold vmd:leading-[35px]  p-10 '>Event's Sponser</h1>
-      <div className='w-screen gap-7 grid lg:grid-cols-4 sm:grid-cols-2 mb:grid-cols-1 vmd:grid-cols-1 grid-cols-1 p-5'>
+    <h1 className='sponserText text-center lg:text-[60px] vmd:text-[40px] font-bold vmd:leading-[35px]  p-10 hover:tracking-wider duration-200 transition-all shadow-2xl hover:shadow-rose-600'>Event's Sponser</h1>
+      <div className='w-screen gap-7 grid lg:grid-cols-4 sm:grid-cols-2 mb:grid-cols-1 vmd:grid-cols-1 grid-cols-1 p-5 bg-gradient-to-tr from-blue-600 via-gray-900 bg-slate-800'>
         <motion.div initial={{translateX:-150}} whileInView={{translateX:0}} transition={{duration:0.5}} className='laida overflow-hidden flex items-center justify-center flex-col border-b-4 border-b-yellow-300 p-3 hover:opacity-75 duration-100'>
             <img src='/Adda1658929478.jpg' alt='wavecraze' className='h-[50%] w-[50%] hover:scale-110 duration-75 '/><br/>
             <p className='lg:p-10 sm:p-5 mb:p-10 vmd:p-5 sm:text-yellow-200 mb:text-yellow-200 p-10 sm:text-[15px] vmd:text-[13px]'>lorem I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</p>

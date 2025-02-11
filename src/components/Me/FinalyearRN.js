@@ -64,11 +64,11 @@ const FirstyearRN = () => {
   return (
     <>
     
-    <div className="mainmain bg-slate-900 flex overflow-x-scroll gap-6 p-6">
+    <div className="mainmain bg-slate-900 flex overflow-x-scroll gap-6 p-6 bg-gradient-to-r from-cyan-500 to-pink-900">
       {people.map((person) => (
         <div
           key={person.id}
-          className="abcdef w-40 p-4 bg-slate-950 rounded-lg text-center shadow-md "
+          className="abcdef w-40 p-4 bg-slate-950 rounded-lg text-center "
         >
           <div className='w-32 h-32'>
           <img src={person.imageUrl} alt={person.name} className="w-32 h-32 rounded-full mx-auto mb-4  transition-all hover:skew-x-3 hover:skew-y-3"
