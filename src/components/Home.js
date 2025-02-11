@@ -30,7 +30,11 @@ const Home = () => {
          <Entertainment/>
          <WavecrazeSponser/>
          <>
+<<<<<<< HEAD
          <h1 className='organisingcomitee mt-[50px] font-bold text-center sm:text-[50px] vmd:text-[30px] mb:text-[40px]'>Organising Comitee</h1>
+=======
+          <h1 className='font-bold text-center sm:text-[50px] vmd:text-[30px] mb:text-[40px]'>Organising Comitee</h1>
+>>>>>>> 2d6dcdcc65c32e472f1831c3783c12e19173bfb3
           <FinalyearRN/>
           <ThirdyearRn/>
           <SeconYearRN/>

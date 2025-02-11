@@ -63,8 +63,12 @@ const people = [
 const FirstyearRN = () => {
   return (
     <>
+<<<<<<< HEAD
     
     <div className="mainmain bg-slate-900 flex overflow-x-scroll gap-6 p-6 bg-gradient-to-r from-cyan-500 to-pink-900">
+=======
+    <div className="mainmain bg-slate-900 flex overflow-x-scroll gap-6 p-6">
+>>>>>>> 2d6dcdcc65c32e472f1831c3783c12e19173bfb3
       {people.map((person) => (
         <div
           key={person.id}
