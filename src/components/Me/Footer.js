@@ -38,14 +38,14 @@ function Footer() {
             <form className='flex flex-col items-center justify-center gap-2'>
                 <div>
                 <p className='text-[15px] vmd:px-3 sm:p-0 sm:text-[20px]'>Name</p>
-                    <input type="text" placeholder='Enter your name' name="" id="" className='w outline-none bg-slate-900 rounded-lg py-1 border-2 hover:border-white border-yellow-400 hover:opacity-90 focus:bg-slate-950 text-[#FF4E01] placeholder:text-[#FF4E01] sm:placeholder:text-[20px] placeholder:px-2 placeholder:text-[15px]' />
+                <input type="text" placeholder='Enter your name' name="" id="" className='w outline-none bg-slate-900 rounded-lg py-1 border-2 hover:border-white border-yellow-400 hover:opacity-90 focus:bg-slate-950 text-[#FF4E01] placeholder:text-[#FF4E01] sm:placeholder:text-[20px] placeholder:px-2 placeholder:text-[15px]' />
                 </div>
                 <div>
                 <p className='text-[15px] vmd:px-3 sm:p-0 sm:text-[20px]'>E-mail</p>
-                    <input type="text" placeholder='Enter your E-mail' name="" id="" className='outline-none bg-slate-900 rounded-lg py-1 border-2 hover:border-white border-yellow-400 hover:opacity-90 focus:bg-slate-950 text-[#FF4E01] placeholder:text-[#FF4E01] sm:placeholder:text-[20px] placeholder:px-2 placeholder:text-[15px] ' />
+                <input type="text" placeholder='Enter your E-mail' name="" id="" className='outline-none bg-slate-900 rounded-lg py-1 border-2 hover:border-white border-yellow-400 hover:opacity-90 focus:bg-slate-950 text-[#FF4E01] placeholder:text-[#FF4E01] sm:placeholder:text-[20px] placeholder:px-2 placeholder:text-[15px] ' />
                 </div>
                 <div>
-                    <p className='text-[15px] vmd:px-3 sm:p-0 sm:text-[20px]'>About</p>
+                <p className='text-[15px] vmd:px-3 sm:p-0 sm:text-[20px]'>About</p>
                     <textarea type="text" placeholder='Write somethings related to fest' name="" id="" className='outline-none bg-slate-900 px-3 rounded-lg py-1 border-2 hover:border-white border-yellow-400 hover:opacity-90 focus:bg-slate-950 text-[#FF4E01] placeholder:text-[#FF4E01] sm:placeholder:text-[20px]  placeholder:text-[15px]' />
                 </div>
                 <button type='submit' class="button px-6 py-2 text-lg font-medium text-white bg-transparent border-2 border-green-500 rounded-lg transform transition-all duration-300 ease-in-out hover:text-white ">Submit</button>
