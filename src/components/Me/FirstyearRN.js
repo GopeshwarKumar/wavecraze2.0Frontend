@@ -48,8 +48,8 @@
 // }
 
 // export default TeamRN
-
 import React from 'react';
+import { motion } from 'framer-motion';
 import { FcContacts } from 'react-icons/fc';
 
 // Sample data
@@ -114,21 +114,20 @@ const people = [
 const FirstyearRN = () => {
   return (
     <>
-    <div className="mainmain bg-slate-900 flex overflow-x-scroll gap-6 p-6">
+    <div className="mainmain flex overflow-x-scroll gap-6 p-6 bg-gradient-to-tr from-blue-600 via-gray-900 to-slate-800">
       {people.map((person) => (
-        <div
-          key={person.id}
-          className="abcdef w-40 p-4 border border-gray-200 rounded-lg text-center shadow-md "
-        >
-          <div className='w-32 h-32'>
-          <img src={person.imageUrl} alt={person.name} className="w-32 h-32 rounded-full mx-auto mb-4  transition-all hover:skew-x-3 hover:skew-y-3"
-          />
-          </div>
-          <h3 className="text-xl font-semibold text-white
-    ">{person.name}</h3>
-          <p className="text-yellow-500 ">
-            <FcContacts/>{person.mobile}</p>
-        </div>
+        <motion.div initial={{scale:0}} viewport={{ once: true }} whileInView={{scale:1}}
+                  key={person.id}
+                  className="abcdef w-40 p-4 bg-slate-950 rounded-lg text-center "
+                >
+                  <div className='w-32 h-32'>
+                  <img src={person.imageUrl} alt={person.name} className="w-32 h-32 rounded-full mx-auto mb-4  transition-all hover:skew-x-3 hover:skew-y-3"
+                  />
+                  </div>
+                  <h3 className="text-xl text-white mt-[20px] font-semibold">{person.name}</h3>
+                  <p className="text-yellow-500 ">
+                    {person.mobile}</p>
+                </motion.div>
       ))}
     </div>
     </>

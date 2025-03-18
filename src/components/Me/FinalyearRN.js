@@ -1,6 +1,7 @@
 import React from 'react';
-import { FcContacts } from 'react-icons/fc';
+import {motion} from 'framer-motion'
 
+const FinalyearRN = () => {
 // Sample data
 const people = [
   {
@@ -60,17 +61,12 @@ const people = [
   // Add more people here
 ];
 
-const FirstyearRN = () => {
   return (
     <>
-<<<<<<< HEAD
-    
-    <div className="mainmain bg-slate-900 flex overflow-x-scroll gap-6 p-6 bg-gradient-to-r from-cyan-500 to-pink-900">
-=======
-    <div className="mainmain bg-slate-900 flex overflow-x-scroll gap-6 p-6">
->>>>>>> 2d6dcdcc65c32e472f1831c3783c12e19173bfb3
+    <h1 className='organisingcomitee p-3 m-3 rounded-s-full font-bold text-center sm:text-[50px] vmd:text-[30px] mb:text-[40px] hover:tracking-wider duration-200 transition-all shadow-2xl hover:shadow-rose-600'>Organising Comitee</h1>
+    <div className="mainmain flex overflow-x-scroll gap-6 p-6 bg-gradient-to-tr from-blue-600 via-gray-900 to-slate-800">
       {people.map((person) => (
-        <div
+        <motion.div initial={{scale:0}} viewport={{ once: true }} whileInView={{scale:1}}
           key={person.id}
           className="abcdef w-40 p-4 bg-slate-950 rounded-lg text-center "
         >
@@ -78,14 +74,14 @@ const FirstyearRN = () => {
           <img src={person.imageUrl} alt={person.name} className="w-32 h-32 rounded-full mx-auto mb-4  transition-all hover:skew-x-3 hover:skew-y-3"
           />
           </div>
-          <h3 className="text-xl text-white mt-[20px] font-semibol">{person.name}</h3>
+          <h3 className="text-xl text-white mt-[20px] font-semibold">{person.name}</h3>
           <p className="text-yellow-500 ">
-            <FcContacts/>{person.mobile}</p>
-        </div>
+            {person.mobile}</p>
+        </motion.div>
       ))}
     </div>
     <div className='w-screen shadow-2xl shadow-amber-400 h-[1px] animate-ping  duration-200 bg-red-500'></div>    </>
   );
 };
 
-export default FirstyearRN;
+export default FinalyearRN;

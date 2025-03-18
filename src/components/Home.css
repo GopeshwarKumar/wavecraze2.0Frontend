@@ -12,10 +12,9 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-    min-height: 100vh; /* Ensure the div takes up at least the full viewport height */
-    display: flex;
-    flex-direction: column;
+    background-attachment:fixed;
+    /* display: flex;
+    flex-direction: column; */
     margin: 0;
     padding: 0;
 }

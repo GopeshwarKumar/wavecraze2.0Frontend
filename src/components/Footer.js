@@ -33,7 +33,7 @@ const Footer = () => {
         </a>
       </div>
       <p className="footer-credit">
-        Made by <span className="team-name cursor-pointer">@webd team</span>
+        Made by <span className="team-name cursor-pointer">RN @webd team</span>
       </p>
     </div>
   );
