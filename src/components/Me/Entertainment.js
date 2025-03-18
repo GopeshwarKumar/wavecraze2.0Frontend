@@ -55,7 +55,7 @@ function Entertainment() {
     </g>
 </motion.svg>
             <motion.h2 className='font-bold text-white'>Dance Off</motion.h2>
-            <motion.p whileInView={{opacity:1,color:"yellow"}} transition={{duration:2}} className='w-[75%] px-[50px] vmd:px-[15px] font-mono leading-tight lg:text-[17px] vmd:text-[15px] text-white opacity-10 transition-all'>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</motion.p>
+            <motion.p whileInView={{opacity:1,color:"yellow"}} transition={{duration:2}} className='w-[75%] px-[50px] vmd:px-[1px] font-mono leading-tight lg:text-[17px] vmd:text-[15px] text-white opacity-10 transition-all'>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</motion.p>
         </div>
 
     <div className='flex flex-col items-center vmd:gap-3 gap-7'>
@@ -78,7 +78,7 @@ function Entertainment() {
         <path d="M317.9 238c-.9.4-1.6-.4-2.4-.5-.2 0-.3-.2-.4-.2-.3-.1-.9.3-1-.4 0-.4-.5-.7 0-1.1.2-.2 0-.6-.3-.8-.2-.2-.3-.5 0-.6 1.2-.7 1.8-2 2.8-2.9.2-.2.3-.5.8-.5.5.1.9-.1 1-.7 0-.6.6-.7 1-.8.6-.2 1.9.4 2.2 1 .3.5.4 1 .4 1.6v1.2c0 .5-.1.9-.7 1.2-.4.2-.5.6-.2 1.1.1.3.5.5.3.9s-.4.7-.9 1c-.9.3-1.6.7-2.6.5z" fill="#ea5621" data-color="1"></path>
     </g>
 </svg>
-    <motion.p viewport={{ once: true }} whileInView={{opacity:1,color:"yellow"}} transition={{duration:2}} className='w-[75%] px-[50px] vmd:px-[15px] font-mono leading-tight lg:text-[17px] vmd:text-[15px] text-white opacity-10 transition-all'>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</motion.p>
+    <motion.p viewport={{ once: true }} whileInView={{opacity:1,color:"yellow"}} transition={{duration:2}} className='w-[75%] px-[50px] vmd:px-[1px] font-mono leading-tight lg:text-[17px] vmd:text-[15px] text-white opacity-10 transition-all'>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</motion.p>
         </div>
 
     <div className='flex flex-col items-center vmd:gap-3 gap-7'>
@@ -100,7 +100,7 @@ function Entertainment() {
     </g>
 </motion.svg>
         <motion.h2 className='font-bold text-white'>Henna Tattoo Station</motion.h2>
-        <motion.p whileInView={{opacity:1,color:"yellow"}} transition={{duration:2}} className='w-[75%] px-[50px] vmd:px-[15px] font-mono leading-tight lg:text-[17px] vmd:text-[15px] text-white opacity-10 transition-all'>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</motion.p>
+        <motion.p whileInView={{opacity:1,color:"yellow"}} transition={{duration:2}} className='w-[75%] px-[50px] vmd:px-[1px] font-mono leading-tight lg:text-[17px] vmd:text-[15px] text-white opacity-10 transition-all'>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</motion.p>
         </div>
         
         <div className='flex flex-col items-center vmd:gap-3 gap-7'>
@@ -123,7 +123,7 @@ function Entertainment() {
             
         <motion.h2 className='font-bold text-white'>
             Horror Movie Lounge</motion.h2>
-            <motion.p viewport={{ once: true }} whileInView={{opacity:1,color:"yellow"}} transition={{duration:2}} className='w-[75%] px-[50px] vmd:px-[15px] font-mono leading-tight lg:text-[17px] vmd:text-[15px] text-white opacity-10 transition-all'>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</motion.p>
+            <motion.p viewport={{ once: true }} whileInView={{opacity:1,color:"yellow"}} transition={{duration:2}} className='w-[75%] px-[50px] vmd:px-[1px] font-mono leading-tight lg:text-[17px] vmd:text-[15px] text-white opacity-10 transition-all'>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</motion.p>
         </div>
 
         <div className='flex flex-col items-center vmd:gap-3 gap-7'>
@@ -146,7 +146,7 @@ function Entertainment() {
     <motion.h2 className='font-bold text-white'>
     Costume Contest
     </motion.h2>
-    <motion.p viewport={{ once: true }} whileInView={{opacity:1,color:"yellow"}} transition={{duration:2}} className='w-[75%] px-[50px] vmd:px-[15px] font-mono leading-tight lg:text-[17px] vmd:text-[15px] text-white opacity-10 transition-all'>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</motion.p>
+    <motion.p viewport={{ once: true }} whileInView={{opacity:1,color:"yellow"}} transition={{duration:2}} className='w-[75%] px-[50px] vmd:px-[1px] font-mono leading-tight lg:text-[17px] vmd:text-[15px] text-white opacity-10 transition-all'>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</motion.p>
         </div>
 
         <div className='flex flex-col items-center vmd:gap-3 gap-7'>
@@ -182,7 +182,7 @@ function Entertainment() {
         <motion.h2 className='font-bold text-white'>
             Palm Reading
         </motion.h2>
-            <motion.p viewport={{ once: true }} whileInView={{opacity:1,color:"yellow"}} transition={{duration:2}} className='w-[75%] px-[50px] vmd:px-[15px] font-mono leading-tight lg:text-[17px] vmd:text-[15px] text-white opacity-10 transition-all'>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</motion.p>
+            <motion.p viewport={{ once: true }} whileInView={{opacity:1,color:"yellow"}} transition={{duration:2}} className='w-[75%] px-[50px] vmd:px-[1px] font-mono leading-tight lg:text-[17px] vmd:text-[15px] text-white opacity-10 transition-all'>I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you.</motion.p>
         </div>
     </div>
     </>
