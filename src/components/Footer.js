@@ -1,6 +1,7 @@
 import React from "react";
 import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
-import "./Footer.css"; // Link to the external CSS file
+import "./Footer.css";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -30,6 +31,14 @@ const Footer = () => {
           className="icon linkedin no-underline"
         >
           <FaLinkedin />
+        </a>
+        <a
+          href="mailto:info@wavecraze.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon linkedin no-underline"
+        >
+          <MdEmail />
         </a>
       </div>
       <p className="footer-credit">

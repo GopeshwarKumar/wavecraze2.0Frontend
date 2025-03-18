@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FcContacts } from 'react-icons/fc';
 
 // Sample data
 const people = [

@@ -1,9 +1,10 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import './Home.css';
 import Nav from './Nav';
 import Footer from './Footer';
 import WavecrazeSponser from './Me/WavecrazeSponser'
 import Entertainment from './Me/Entertainment';
+import Events from '../components/Events'
 
 import FirstyearRN from './Me/FirstyearRN'
 import SeconYearRN from './Me/SeconYearRN'
@@ -34,9 +35,20 @@ const Home = () => {
       </div>
     </div>
       <div>*/}
-        {/* <Event />  */}
+      <svg className='w-screen bg-none md:translate-y-[50px] sm:translate-y-[20px] mb:translate-y-[30px] vmd:-translate-y-[20px]'>
+    <text className='text-copy xl:text-[120px] lg:text-[120px] md:text-[90px] sm:text-[70px] mb:text-[55px] vmd:text-[35px] vmd:font-extralight font-bold tracking-widest mb:tracking-[10px] vmd:tracking-[10px] ' text-anchor="middle" x="50%" y="90%">Wave Craze</text>
+    </svg>
+
+    <div className='md:translate-y-[100px] sm:translate-y-[50px] mb:translate-y-[30px] vmd:-translate-y-[20px]'>
+      <p className='text-center font-bold lg:text-[25px] md:text-[20px] sm:text-[18px] '>
+      "Brought to you by Radio Nitroz"
+      </p>
+      <p className='text-center '>The Festival Has Begun!</p>
+    </div>
+        
       </div>
       <div>
+         <Events/>
          <Entertainment/>
          <WavecrazeSponser/>
          <>

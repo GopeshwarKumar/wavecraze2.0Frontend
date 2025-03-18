@@ -91,3 +91,102 @@ svg text {
 }
 
 .wrapper {background-color: #FFFFFF}; */
+
+.text-copy {
+  fill: none;
+  stroke: yellow;
+  stroke-dasharray: 200%; /* Increase the length of dashes */
+  stroke-width: 10px;
+  stroke-dashoffset: 200%; /* Start with a larger offset */
+  animation: stroke-offset 5s ease-in-out infinite; /* Use ease-in-out for smoother animation */
+}
+
+@keyframes stroke-offset {
+  0% {
+
+    stroke-dashoffset: 200%; /* Initial offset */
+  }
+  50% {
+    stroke: aqua;
+    stroke-dashoffset: 0%; /* Middle point, stroke is fully revealed */
+  }
+  75% {
+    stroke: rgb(56, 164, 179);
+    stroke-dashoffset: 0%; /* Middle point, stroke is fully revealed */
+  }
+  100% {
+    stroke-dashoffset: -200%; /* End point, stroke moves beyond the path */
+  }
+}
+
+
+.contact-section {
+  padding: 50px 20px;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: cyan;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-item {
+  background: #333;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+.contact-item:hover {
+  transform: scale(1.1);
+}
+
+.contact-item i {
+  font-size: 2em;
+  color: cyan;
+  margin-bottom: 10px;
+}
+
+.contact-item h3 {
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+
+.contact-item p a {
+  font-size: 1.1em;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .contact-item {
+      width: 90%;
+  }
+}
+
+.contact-item p a:hover {
+  color: cyan;
+}

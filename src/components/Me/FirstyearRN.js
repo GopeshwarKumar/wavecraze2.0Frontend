@@ -1,56 +1,5 @@
-// import React from 'react'
-// import { FcContacts } from 'react-icons/fc'
-
-// function TeamRN() {
-//   return (
-//     <>
-//     <div className=''>
-//         <h2>Final Yrs.</h2>
-//         <div className='w-screen h-[30vh] bg-slate-700 flex items-center gap-4 overflow-x-scroll p-1'>
-//             <div className=' bg-slate-100'>
-//             <img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/>
-//             <div className='relative bottom-0'>
-//             <p className='vmd:text-[15px] sm:text-[18px] text-yellow-300 font-bold '>Gopeshwar</p>
-//             <p className='text-[10px] text-yellow-300 font-bold '>Web Developer</p>
-//             <p className='text-[10px] px-3 font-bold text-green-500'><FcContacts className='text-[20px]'/> 9897656775</p>
-//             </div>
-//             </div>
-            
-//             <img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/>
-//             <img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/>
-//         </div>
-//     </div>
-//     <div>
-//         <h2>3rd Yrs.</h2>
-//         <div className='w-screen h-[30vh] bg-slate-700 flex items-center gap-4 overflow-x-scroll p-2'>
-//             <img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/>
-//             <img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/>
-//             <img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/>
-//         </div>
-//     </div>
-//     <div><h2>2nd Yrs.</h2>
-//     <div className='w-screen h-[30vh] bg-slate-700 flex items-center gap-4 overflow-x-scroll p-2'>
-//             <img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/>
-//             <img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/>
-//             <img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/>
-//         </div>
-//     </div>
-//     <div>
-//         <h2>1st Yrs.</h2>
-//         <div className='w-screen h-[30vh] bg-slate-700 flex items-center gap-4 overflow-x-scroll p-2'>
-//             <img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/>
-//             <img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/>
-//             <img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/><img src="/firstyearImages/gopeshwar.jpg" alt='sj' className='h-full w-full'/>
-//         </div>
-//     </div>
-//     </>
-//   )
-// }
-
-// export default TeamRN
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FcContacts } from 'react-icons/fc';
 
 // Sample data
 const people = [

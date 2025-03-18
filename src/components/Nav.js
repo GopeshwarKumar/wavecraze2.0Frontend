@@ -75,19 +75,20 @@ const Nav = () => {
 </nav>
 {/* Mobile Links  */}
 {isOpen && (
-    <div onMouseMove={check} className={`w-screen h-1/2 ${circleBGcOLOR} shadow-md  md:hidden transition-all flex flex-col items-center justify-center py-5 relative`}>
+    <div onMouseMove={check} className={`w-screen h-1/2 ${circleBGcOLOR}  shadow-md  md:hidden transition-all flex flex-col items-center justify-center py-5 relative`}>
     <motion.div initial={{scale:0,opacity:0.5}} whileInView={{scale:1,opacity:1}} transition={{ duration: 1, }} className={`w-[300px] h-[300px] bg-gradient-to-tr from-white via-blue-600  to-cyan-800  rounded-full flex items-center justify-center`}>
       <svg width={"250px"} height={"250px"} className={`translate-x-${svgtranslateright} -translate-x-${svgtranslateleft} translate-y-${svgrotateUp} -translate-y-${svgrotateDown} transition-all duration-150`}>
-        <path id='curve' d="M 25 125 A 100 100 0 1 1 25 127"></path>
+        <path fill="rgb(56, 164, 179)" className='' id='curve' d="M 25 125 A 100 100 0 1 1 25 127"></path>
         {/* <circle cx="120" cy="90" r="5" fill="blue" />
         <circle cx="110" cy="90" r="5" fill="white" /> */}
 
         <text fill='white' className='font-bold text-white'>
           <textPath href='#curve'>
-            <Link fill="white" to={"/loos"} className='text-[30px] text-white vmd:text-[17px] mb:text-[25px]     '> Contact Us    </Link>
+            <Link fill="white" to={"/loos"} className='text-[30px] text-white vmd:text-[17px] mb:text-[25px]   '> Register    </Link>
             <Link fill="yellow" className='text-[30px] text-white vmd:text-[17px] mb:text-[25px]     '> Sponsers   </Link>
             <Link fill="blue" className='text-[30px] text-white vmd:text-[17px] mb:text-[25px]     '> RN_Team  </Link>
             <Link fill="white" className='text-[30px] text-white vmd:text-[17px] mb:text-[25px]     '> Register  </Link>
+            <Link fill="white" className='text-[30px] text-white vmd:text-[17px] mb:text-[25px]     '> Contact Us  </Link>
           </textPath>
         </text>
       </svg>
