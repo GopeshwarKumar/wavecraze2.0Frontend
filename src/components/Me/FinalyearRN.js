@@ -63,7 +63,7 @@ const people = [
 
   return (
     <>
-    <h1 className='organisingcomitee p-3 m-3 rounded-s-full font-bold text-center sm:text-[50px] vmd:text-[30px] mb:text-[40px] hover:tracking-wider duration-200 transition-all shadow-2xl hover:shadow-rose-600'>Organising Comitee</h1>
+    <motion.h1 initial={{translateY:40}} whileInView={{translateY:0,opacity:1}} transition={{duration:0.4}} className='organisingcomitee p-3 m-3 rounded-s-full font-bold text-center sm:text-[50px] vmd:text-[30px] mb:text-[40px] hover:tracking-wider duration-200 transition-all shadow-2xl hover:shadow-rose-600'>Organising Comitee</motion.h1>
     <div className="mainmain flex overflow-x-scroll gap-6 p-6 bg-gradient-to-tr from-blue-600 via-gray-900 to-slate-800">
       {people.map((person) => (
         <motion.div initial={{scale:0}} viewport={{ once: true }} whileInView={{scale:1}}

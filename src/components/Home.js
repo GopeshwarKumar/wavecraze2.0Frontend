@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import './Home.css';
 import Nav from './Nav';
-import Footer from './Footer';
+// import Footer from './Footer';
 import WavecrazeSponser from './Me/WavecrazeSponser'
 import Entertainment from './Me/Entertainment';
 import Events from '../components/Events'
@@ -10,6 +10,7 @@ import FirstyearRN from './Me/FirstyearRN'
 import SeconYearRN from './Me/SeconYearRN'
 import ThirdyearRn from './Me/ThirdyearRn'
 import FinalyearRN from './Me/FinalyearRN'
+import Footer from './Me/Footer'
 
 const Home = () => {  
   // const [moveahead, setmoveahead] = useState(10)
@@ -51,12 +52,10 @@ const Home = () => {
          <Events/>
          <Entertainment/>
          <WavecrazeSponser/>
-         <>
           <FinalyearRN/>
           <ThirdyearRn/>
           <SeconYearRN/>
           <FirstyearRN/>
-         </>
          <Footer/>
       </div>
       </>

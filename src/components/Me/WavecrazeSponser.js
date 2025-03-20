@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 function WavCrazeSponser() {
   return (
     <>
-    <h1 className='sponserText text-center lg:text-[60px] vmd:text-[40px] font-bold vmd:leading-[35px] rounded-e-full p-6 m-2 hover:tracking-wider duration-200 transition-all shadow-2xl hover:shadow-rose-600 '>Event's Sponser</h1>
+    <motion.h1 initial={{translateY:40}} whileInView={{translateY:0,opacity:1}} transition={{duration:0.4}}  className='sponserText text-center lg:text-[60px] vmd:text-[40px] font-bold vmd:leading-[35px] rounded-e-full p-6 m-2 hover:tracking-wider duration-200 transition-all shadow-2xl hover:shadow-rose-600 '>Event's Sponser</motion.h1>
       <div className='w-screen gap-7 grid lg:grid-cols-5 sm:grid-cols-2 mb:grid-cols-2 vmd:grid-cols-1 grid-cols-1 p-5 bg-gradient-to-tr from-blue-600 via-gray-900 bg-slate-800'>
         <motion.div initial={{translateX:-150}} viewport={{ once: true }} whileInView={{translateX:0}} transition={{duration:0.5}} className='laida overflow-hidden flex items-center justify-center flex-col border-b-4 border-b-yellow-300 hover:border-double p-3 hover:opacity-75 duration-100'>
             <img src='/Adda1658929478.jpg' alt='wavecraze' className='h-[50%] w-[50%] hover:scale-110 duration-75 '/><br/>

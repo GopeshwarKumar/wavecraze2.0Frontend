@@ -3,10 +3,10 @@ import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 import "./Footer.css";
 import { MdEmail } from "react-icons/md";
 
-const Footer = () => {
+const Contact = () => {
   return (
     <div className="footer-container">
-      <h3 className="footer-title">Follow Us</h3>
+      <h3 className="footer-title text-black font-extrabold ">Follow Us</h3>
       <div className="social-icons">
         <a
           href="https://www.instagram.com/radionitroz.nitdgp/"
@@ -22,7 +22,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="icon facebook no-underline"
         >
-          <FaFacebook />
+          <FaFacebook className=""/>
         </a>
         <a
           href="https://www.linkedin.com/company/radio-nitroz-nitdgp/posts/?feedView=all"
@@ -38,7 +38,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="icon linkedin no-underline"
         >
-          <MdEmail />
+          <MdEmail className="hover:text-rose-600"/>
         </a>
       </div>
       <p className="footer-credit">
@@ -48,4 +48,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Contact;
