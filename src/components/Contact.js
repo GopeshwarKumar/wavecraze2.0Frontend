@@ -2,10 +2,11 @@ import React from "react";
 import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 import "./Footer.css";
 import { MdEmail } from "react-icons/md";
+import {motion} from 'framer-motion'
 
 const Contact = () => {
   return (
-    <div className="footer-container">
+    <motion.div viewport={{once:true}} initial={{translateY:100}} whileInView={{translateY:0}} className="footer-container">
       <h3 className="footer-title text-black font-extrabold ">Follow Us</h3>
       <div className="social-icons">
         <a
@@ -44,7 +45,7 @@ const Contact = () => {
       <p className="footer-credit">
         Made by <span className="team-name cursor-pointer">RN @webd team</span>
       </p>
-    </div>
+    </motion.div>
   );
 };
 

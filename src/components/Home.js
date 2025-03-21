@@ -41,10 +41,10 @@ const Home = () => {
     </svg>
 
     <div className='md:translate-y-[100px] sm:translate-y-[50px] mb:translate-y-[30px] vmd:-translate-y-[20px]'>
-      <p className='text-center font-bold lg:text-[25px] md:text-[20px] sm:text-[18px] '>
+      <p className='text-center font-bold lg:text-[25px] md:text-[20px] sm:text-[18px] text-yellow-300'>
       "Brought to you by Radio Nitroz"
       </p>
-      <p className='text-center '>The Festival Has Begun!</p>
+      <p className='text-center text-cyan-400'>The Festival Has Begun!</p>
     </div>
         
       </div>

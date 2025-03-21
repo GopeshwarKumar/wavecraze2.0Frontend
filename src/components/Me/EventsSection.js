@@ -12,7 +12,7 @@ function EventsSection() {
 
     <div className="first flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-6 py-10 px-6">
   {/* Image Section */}
-  <motion.div initial={{translateX:-200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}} className="w-full md:w-1/2 ">
+  <motion.div viewport={{once:true}} initial={{translateX:-200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}} className="w-full md:w-1/2 ">
     <img
       src="/assets/dj-night.jpeg"
       alt="DJ Night"
@@ -22,10 +22,10 @@ function EventsSection() {
   </motion.div>
 
   {/* Text Section */}
-  <motion.div initial={{translateX:200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}}  className="w-full md:w-1/2 text-center md:text-left">
-    <h1 className="text-4xl font-semibold text-gray-800 mb-4">DJ Night
+  <motion.div viewport={{once:true}} initial={{translateX:200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}}  className="w-full md:w-1/2 text-center md:text-left">
+    <h1 className="text-4xl font-semibold text-white mb-4">DJ Night
     </h1>
-    <p className="text-lg text-gray-600 leading-relaxed">
+    <p className="text-lg text-slate-400 leading-relaxed">
       Get ready for an electrifying experience with live bands and performances from Radio NITroz artists. Feel the beats and groove all night long!
     </p>
   </motion.div>
@@ -34,13 +34,13 @@ function EventsSection() {
 
 <div className="second flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-6 py-10 px-6">
     {/* Text Section */}
-  <motion.div initial={{translateX:-200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}} className="w-full md:w-1/2 text-center md:text-left">
-    <h1 className="text-4xl font-semibold text-gray-800 mb-4 text-center">Glam It Up</h1>
-    <p className="text-lg text-gray-600 leading-relaxed">Get ready for an electrifying experience with live bands and performances from Radio NITroz artists. Feel the beats and groove all night long!</p>
+  <motion.div viewport={{once:true}} initial={{translateX:-200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}} className="w-full md:w-1/2 text-center md:text-left">
+    <h1 className="text-4xl font-semibold text-white mb-4 text-center">Glam It Up</h1>
+    <p className="text-lg text-slate-400 leading-relaxed">Get ready for an electrifying experience with live bands and performances from Radio NITroz artists. Feel the beats and groove all night long!</p>
   </motion.div>
 
   {/* Image Section */}
-  <motion.div initial={{translateX:200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}} className="w-full md:w-1/2">
+  <motion.div viewport={{once:true}} initial={{translateX:200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}} className="w-full md:w-1/2">
     <img
       src="/assets/glam.jpg"
       alt="DJ Night"
@@ -52,7 +52,7 @@ function EventsSection() {
 
 <div className="third flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-6 py-10 px-6">
   {/* Image Section */}
-  <motion.div initial={{translateX:-200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}} className="w-full md:w-1/2">
+  <motion.div viewport={{once:true}} initial={{translateX:-200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}} className="w-full md:w-1/2">
     <img
       src="/assets/talentx.avif"
       alt="DJ Night"
@@ -63,8 +63,8 @@ function EventsSection() {
 
   {/* Text Section */}
   <div className="w-full md:w-1/2 text-center md:text-left">
-    <motion.h1 initial={{translateY:20 , opacity:0.2}} whileInView={{translateY:0 , opacity:1}} transition={{duration:0.5}} className="text-4xl font-semibold text-gray-800 mb-4 text-center">Talent X</motion.h1>
-    <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.8}} className="text-lg text-gray-600 leading-relaxed">Get ready for an electrifying experience with live bands and performances from Radio NITroz artists. Feel the beats and groove all night long!</motion.p>
+    <motion.h1 initial={{translateY:20 , opacity:0.2}} whileInView={{translateY:0 , opacity:1}} transition={{duration:0.5}} className="text-4xl font-semibold text-white mb-4 text-center">Talent X</motion.h1>
+    <motion.p initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.8}} className="text-lg leading-relaxed text-slate-400">Get ready for an electrifying experience with live bands and performances from Radio NITroz artists. Feel the beats and groove all night long!</motion.p>
   </div>
 </div>
 
@@ -80,10 +80,10 @@ function EventsSection() {
   </div>
 
   {/* Text Section */}
-  <motion.div initial={{translateX:200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}} className="w-full md:w-1/2 text-center md:text-left">
-    <h1 className="text-4xl font-semibold text-gray-800 mb-4 text-center">
+  <motion.div viewport={{once:true}} initial={{translateX:200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}} className="w-full md:w-1/2 text-center md:text-left">
+    <h1 className="text-4xl font-semibold text-white mb-4 text-center">
     Comedy Night</h1>
-    <p className="text-lg text-gray-600 leading-relaxed">Get ready for an electrifying experience with live bands and performances from Radio NITroz artists. Feel the beats and groove all night long!</p>
+    <p className="text-lg text-slate-400 leading-relaxed">Get ready for an electrifying experience with live bands and performances from Radio NITroz artists. Feel the beats and groove all night long!</p>
   </motion.div>
 </div>
 
