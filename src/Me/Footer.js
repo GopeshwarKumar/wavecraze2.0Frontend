@@ -1,5 +1,5 @@
 import React from 'react'
-import Contact from '../Contact';
+import Contact from '../components/Contact'
 import { motion } from 'framer-motion';
 
 function Footer() {

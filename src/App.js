@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
-import Loader from './components/Loader';
-import Home from './components/Home';
+import React from 'react';
+import PageRoutes from './AllRoutes/PageRoutes';
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  const handleLoaded = () => {
-    setLoading(false);
-  };
+  // const handleLoaded = () => {
+  //   setLoading(false);
+  // };
 
   return (
     <>
-    {loading ? <Loader onLoaded={handleLoaded} /> : <Home />}
+    {/* {loading ? <Loader onLoaded={handleLoaded} /> : <Home />} */}
+    <PageRoutes/>
     </>
   );
 }

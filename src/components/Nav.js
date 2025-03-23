@@ -44,29 +44,35 @@ const Nav = () => {
 }
   return (
     <>
-    <nav className="flex justify-between items-center bg-[#1C2447] p-4  shadow-md sticky top-0 backdrpo-blur">
+    <nav className="flex justify-between items-center   p-4  shadow-md sticky top-0 backdrop-blur-[2px]">
 
 {/* Logo */}
 <div className="flex items-center rounded-full shadow-2xl hover:shadow-rose-600 duration-200">
-    <img src="/assets/rnlogo.jpg" alt="Logo" className="rnlogonavbar sm:h-[60px] vmd:h-[40px] sm:w-[70px] vmd:w-[40px] rounded-full  hover:scale-125 duration-300 transition-all sm:translate-x-5 mb:translate-x-2 " />
+    <img src="/assets/rnlogo.jpg" alt="Logo" className="rnlogonavbar sm:w-[50px] sm:h-[50px] vmd:h-[40px] vmd:w-[40px] rounded-full  hover:scale-125 duration-300 transition-all sm:translate-x-5 mb:translate-x-2 " />
     {/* <h1 className='text-pink-600 font-extrabold text-4xl'>R<sup className='font-bold'>N</sup></h1> */}
   </div>
 
 
   {/* Links big screen*/}
   <div className="hidden md:flex space-x-4 md:space-x-6 shadow-2xl hover:shadow-rose-600 duration-200">
-    <motion.p animate={{scale:1.1, opacity:1}} transition={{duration:2,delay:1}}><Link  className="link1 no-underline text-white hover:text-blue-500 scale-50">Register</Link></motion.p>
+    <motion.p animate={{scale:1.1, opacity:1}} transition={{duration:2,delay:1}}>
+    <Link to={"/events"}  className="link1 no-underline text-white hover:text-blue-500 scale-50">Events</Link></motion.p>
 
    <motion.p animate={{scale:1.1, opacity:1}} transition={{duration:2,delay:1}}>
-    <Link  className="link3 no-underline text-white hover:text-blue-500 scale-50">About</Link>
+    <Link to={"/sponsers"} className="link3 no-underline text-white hover:text-blue-500 scale-50">Sponsers</Link>
     </motion.p>    
       
-  <motion.p animate={{scale:1.1}} transition={{duration:2,delay:1}}><Link className="link4 no-underline text-white hover:text-blue-500 scale-50">Contact</Link></motion.p>
+  <motion.p animate={{scale:1.1}} transition={{duration:2,delay:1}}>
+  <Link to={"/team"} className="link4 no-underline text-white hover:text-blue-500 scale-50">Team</Link></motion.p>
+  <motion.p animate={{scale:1.1}} transition={{duration:2,delay:1}}>
+  <Link to={"/response"} className="link4 no-underline text-white hover:text-blue-500 scale-50">Response</Link></motion.p>
+  <motion.p animate={{scale:1.1}} transition={{duration:2,delay:1}}>
+  <Link to={"/aboutUs"} className="link4 no-underline text-white hover:text-blue-500 scale-50">About</Link></motion.p>
   </div>
 
   {/* Mobile Menu Button */}
   <motion.div className="md:hidden shadow-2xl hover:shadow-rose-600 duration-200">
-    <button onClick={toggleMenu} className="text-white hover:text-blue-500">
+    <button onClick={toggleMenu} className="text-white text-[30px] hover:text-blue-500">
       {isOpen ? '✖' : '☰'}
     </button>
   </motion.div>
@@ -84,11 +90,13 @@ const Nav = () => {
 
         <text fill='white' className='font-bold text-white'>
           <textPath href='#curve'>
-            <Link fill="white" to={"/loos"} className='text-[30px] text-white vmd:text-[25px]   mb:text-[25px]'>Send Response    </Link>
-            <Link fill="yellow" className='text-[30px] text-white vmd:text-[25px]  mb:text-[25px]     '> Sponsers   </Link>
-            <Link fill="blue" className='text-[30px] text-white vmd:text-[25px]  mb:text-[25px]     '> RN_Team  </Link>
+            <Link fill="white" to={"events"} className='text-[30px] text-white vmd:text-[25px]   mb:text-[25px]'>Events  </Link>
+            <Link fill="yellow" to={"sponsers"} className='text-[30px] text-white vmd:text-[25px]  mb:text-[25px]     '> Sponsers   </Link>
+            <Link fill="blue" to={"team"} className='text-[30px] text-blue-700 vmd:text-[25px]  mb:text-[25px]     '> Team </Link>
             {/* <Link fill="white" className='text-[30px] text-white vmd:text-[25px]  mb:text-[25px]     '> Register  </Link> */}
             <Link fill="white" className='text-[30px] text-white vmd:text-[25px]  mb:text-[25px]     '> Contact Us  </Link>
+            <Link fill="blue" to={"response"} className='text-[30px] vmd:text-[25px]  mb:text-[25px]     '>Respose</Link>
+            <Link fill="white" to={"aboutUs"} className='text-[30px] vmd:text-[25px]  mb:text-[25px]     '>  About</Link>
           </textPath>
         </text>
       </svg>
