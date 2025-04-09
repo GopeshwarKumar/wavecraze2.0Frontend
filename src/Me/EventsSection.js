@@ -65,7 +65,7 @@ function EventsSection() {
   {/* Image Section */}
   <motion.div viewport={{once:true}} initial={{translateX:-200 , opacity:0.2}} whileInView={{translateX:0 , opacity:1}} transition={{duration:0.5}} className="w-full md:w-1/2">
     <img
-      src="/assets/TALENTX poster.jpg"
+      src="/assets/talent4.jpg"
       alt="DJ Night"
       loading="lazy"
       className="w-full rounded-lg shadow-lg object-cover"
