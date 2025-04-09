@@ -34,3 +34,55 @@ html, body {
     font-family: cursive;
     font-size: 5vw;
 }
+
+
+
+.countdown {
+    backdrop-filter: blur(5px);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .countdown h2 {
+      margin-bottom: 15px;
+      font-weight: bold;
+      -webkit-background-clip: text;
+      color: transparent;
+
+    }
+    
+    .countdown p {
+      font-size: 18px;
+      font-weight: normal;
+      margin-bottom: 10px;
+      color: #555;
+    }
+    
+    .countdown .time-container {
+      
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      width:3vw;
+    }
+    
+    .countdown .time-item {
+      
+      padding: 15px;
+      font-size: 24px;
+      font-weight: bold;
+      width: 70px;
+      text-align: center;
+    }
+    
+    .countdown .time-item span {
+      display: block;
+      font-size: 14px;
+      font-weight: normal;
+      margin-top: 5px;
+    }
+    

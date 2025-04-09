@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Fruktur:ital@0;1&family=Playwrite+VN:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Fruktur:ital@0;1&family=Indie+Flower&family=Playwrite+VN:wght@100..400&family=Ribeye+Marrow&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.ssss{
+  font-family: "Playwrite VN", cursive;
+  /* font-optical-sizing: auto; */
+}
+
+
+.dooo{
+  font-family: "Agu Display", serif;
+}
 
 body{
     margin: 0;
@@ -92,34 +107,65 @@ svg text {
 
 .wrapper {background-color: #FFFFFF}; */
 
-.text-copy {
-  fill: none;
-  stroke: yellow;
-  stroke-dasharray: 200%; /* Increase the length of dashes */
-  stroke-width: 10px;
-  stroke-dashoffset: 200%; /* Start with a larger offset */
-  animation: stroke-offset 5s ease-in-out infinite; /* Use ease-in-out for smoother animation */
+.container {
+  /* position: absolute; */
+  /* top: 20px;  */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
 }
+
+
+.maintextSvg {
+  display: block;
+  font: 10.5em 'Montserrat', sans-serif;
+  width: 100%;
+  font-weight: 600;
+  max-width: 960px;
+  height: 200px;
+}
+.maintextSvg:hover{
+  /* background: #000; */
+}
+
+.text-copy {
+  fill: 2px;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+  stroke: aqua;
+  animation-delay: -1s;
+}
+
+.text-copy:nth-child(2) {
+  stroke: #840037;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+  stroke: #BD0034;
+  animation-delay: 1s;
+}
+
+.text-copy:nth-child(4) {
+  stroke: #BD0034;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(5) {
+  stroke: #FDB731;
+  animation-delay: -3s;
+}
+
 
 @keyframes stroke-offset {
-  0% {
-
-    stroke-dashoffset: 200%; /* Initial offset */
-  }
-  50% {
-    stroke: aqua;
-    stroke-dashoffset: 0%; /* Middle point, stroke is fully revealed */
-  }
-  75% {
-    stroke: rgb(56, 164, 179);
-    stroke-dashoffset: 0%; /* Middle point, stroke is fully revealed */
-  }
   100% {
-    stroke-dashoffset: -200%; /* End point, stroke moves beyond the path */
+      stroke-dashoffset: -35%;
   }
-}
-
-
-.aaaa{
-  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 }
