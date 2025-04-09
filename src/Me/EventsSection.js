@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import { Link } from 'react-router-dom'
 
 function EventsSection() {
@@ -54,8 +55,9 @@ function EventsSection() {
 </p><br/>
     <p className='font-bold text-slate-400 text-center'><mark> Time </mark> : 8:00 PM - 12:00 AM</p>
     <p className='font-bold text-slate-400 text-center -translate-x-[5px]'><mark>Venue </mark> : Main Auditorium</p>
-    <p className='text-center'>
-    <Link to={"/glamItUpRegister"} className='font-bold no-underline hover:underline underline-offset-4 text-yellow-300 hover:text-rose-600 transition-all duration-100'>Register for Glam It Up</Link>
+    <p className='text-center flex items-center justify-center gap-x-2 text-green-500'>
+    <Link to={"/glamItUpRegister"} className='font-bold no-underline hover:underline underline-offset-4 hover:text-blue-600 transition-all duration-100'>Register for Glam It Up</Link>
+    <FaRegArrowAltCircleRight className='animate-ping'/>
     </p>
   </motion.div>
 
@@ -82,8 +84,9 @@ function EventsSection() {
     {/* <div className='flex flex-col '> */}
     <p className='font-bold text-slate-400 text-center'><mark> Time </mark> : 03:00 PM 10/04/24</p>
     <p className='font-bold text-slate-400 text-center -translate-x-[5px]'><mark>Venue </mark> : New Auditorium</p>
-    <p className='text-center'>
-    <Link to={"/talentXregister"} className='font-bold no-underline hover:underline underline-offset-4 text-yellow-300 hover:text-rose-600 transition-all duration-100'>Register for Talent X</Link>
+    <p className='text-center flex items-center justify-center gap-x-2 text-green-500'>
+    <Link to={"/talentXregister"} className='font-bold no-underline hover:underline underline-offset-4  hover:text-blue-600 transition-all duration-100'>Register for Talent X</Link>
+    <FaRegArrowAltCircleRight className='animate-ping'/>
     </p>
     {/* </div> */}
   </div>
