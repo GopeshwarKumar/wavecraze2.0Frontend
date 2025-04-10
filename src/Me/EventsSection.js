@@ -53,8 +53,8 @@ function EventsSection() {
     <p className="text-lg text-slate-400 leading-relaxed">Glamour is a gift, and when combined with creativity and artistic expression, it transforms into a breathtaking spectacle.<br/>
     Presenting GLAM IT UP—the show where fashion meets flair, and confidence commands the spotlight. From the runway to the roaring crowd, every stride tells a story, weaving together style, elegance, and individuality.
 </p><br/>
-    <p className='font-bold text-slate-400 text-center'><mark> Time </mark> : 8:00 PM - 12:00 AM</p>
-    <p className='font-bold text-slate-400 text-center -translate-x-[5px]'><mark>Venue </mark> : Main Auditorium</p>
+    <p className='font-bold text-slate-400 text-center'><mark> Time </mark> : 5:30 PM 10/04/25</p>
+    <p className='font-bold text-slate-400 text-center -translate-x-[5px]'><mark>Venue </mark> : New Auditorium</p>
     <p className='text-center flex items-center justify-center gap-x-2 text-green-500'>
     <Link to={"/glamItUpRegister"} className='font-bold no-underline hover:underline underline-offset-4 hover:text-blue-600 transition-all duration-100'>Register for Glam It Up</Link>
     <FaRegArrowAltCircleRight className='animate-ping'/>
@@ -109,7 +109,7 @@ function EventsSection() {
     Comedy Night</h1>
     <p className="text-lg text-slate-400 leading-relaxed">Get ready for an electrifying experience with live bands and performances from Radio NITroz artists. Feel the beats and groove all night long!</p>
     <p className='font-bold text-slate-400 text-center'><mark> Time </mark> : 8:00 PM - 12:00 AM</p>
-    <p className='font-bold text-slate-400 text-center -translate-x-[5px]'><mark>Venue </mark> : Main Auditorium</p>
+    <p className='font-bold text-slate-400 text-center -translate-x-[5px]'><mark>Venue </mark> : New Auditorium</p>
     </motion.div>
 </div>
 
@@ -130,7 +130,7 @@ function EventsSection() {
     Movie Mystic</h1>
     <p className="text-lg text-slate-400 leading-relaxed">Get ready for an electrifying experience with live bands and performances from Radio NITroz artists. Feel the beats and groove all night long!</p>
     <p className='font-bold text-slate-400 text-center'><mark> Time </mark> : 8:00 PM - 12:00 AM</p>
-    <p className='font-bold text-slate-400 text-center -translate-x-[5px]'><mark>Venue </mark> : Main Auditorium</p>
+    <p className='font-bold text-slate-400 text-center -translate-x-[5px]'><mark>Venue </mark> : New Auditorium</p>
     </motion.div>
 </div>
 
