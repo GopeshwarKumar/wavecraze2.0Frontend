@@ -129,7 +129,7 @@ function EventsSection() {
     <h1 className="text-4xl font-semibold text-white mb-4 text-center">
     Movie Mystic</h1>
     <p className="text-lg text-slate-400 leading-relaxed">Movie Mystics  is your ticket to a lineup of amazing films that’ll stir your soul, spark your imagination, and leave you buzzing for more. From edge-of-your-seat thrillers to heartwarming classics, we’ve got something for every movie lover. So grab your squad and feel the vibe, only at Movie Mystics!</p>
-    <p className='font-bold text-slate-400 text-center'><mark> Time </mark> : 8:00 PM - 12:00 AM</p>
+    <p className='font-bold text-slate-400 text-center'><mark> Time </mark> : 6:00 PM 10/04/25</p>
     <p className='font-bold text-slate-400 text-center -translate-x-[5px]'><mark>Venue </mark> : New Auditorium</p>
     </motion.div>
 </div>
