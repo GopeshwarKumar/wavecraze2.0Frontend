@@ -128,7 +128,7 @@ function EventsSection() {
   <motion.div viewport={{once:true}} initial={{translateY:60 , opacity:0.2}} whileInView={{translateY:0 , opacity:1}} transition={{duration:0.5}} className="w-full md:w-1/2 md:text-left">
     <h1 className="text-4xl font-semibold text-white mb-4 text-center">
     Movie Mystic</h1>
-    <p className="text-lg text-slate-400 leading-relaxed">Get ready for an electrifying experience with live bands and performances from Radio NITroz artists. Feel the beats and groove all night long!</p>
+    <p className="text-lg text-slate-400 leading-relaxed">Movie Mystics  is your ticket to a lineup of amazing films that’ll stir your soul, spark your imagination, and leave you buzzing for more. From edge-of-your-seat thrillers to heartwarming classics, we’ve got something for every movie lover. So grab your squad and feel the vibe, only at Movie Mystics!</p>
     <p className='font-bold text-slate-400 text-center'><mark> Time </mark> : 8:00 PM - 12:00 AM</p>
     <p className='font-bold text-slate-400 text-center -translate-x-[5px]'><mark>Venue </mark> : New Auditorium</p>
     </motion.div>
