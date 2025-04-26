@@ -25,8 +25,8 @@ const RegisterGlam=() => {
       return
     }
 
-   await axios.post("http://localhost:5000/glamregister" ,{name,mob,email,event,roll,Department,year}).then(res =>{
-      console.log(res)
+   await axios.post("https://wavecraze.onrender.com/glamregister" ,{name,mob,email,event,roll,Department,year}).then(res =>{
+      // console.log(res)
       if(res.status===200){
         setmessage(res.data.message)
       }else{
