@@ -24,7 +24,7 @@ const RegisterTalent=() => {
       return
     }
 
-   await axios.post("http://localhost:5000/eventregister" ,{name,mob,email,roll,year,Department,event}).then(res =>{
+   await axios.post("https://wavecraze.onrender.com/eventregister" ,{name,mob,email,roll,year,Department,event}).then(res =>{
       // console.log(res)
       if(res.status===200){
         setmessage(res.data.message)
